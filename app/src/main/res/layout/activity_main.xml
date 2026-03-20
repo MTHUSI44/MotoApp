@@ -37,7 +37,7 @@
             app:layout_constraintVertical_bias="0.09" />
 
         <EditText
-            android:id="@+id/etCarMake"
+            android:id="@+id/edtMake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
@@ -50,7 +50,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
         <EditText
-            android:id="@+id/etCarModel"
+            android:id="@+id/edtModel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
@@ -60,10 +60,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.442"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etCarMake" />
+            app:layout_constraintTop_toBottomOf="@+id/edtMake" />
 
         <EditText
-            android:id="@+id/etYear"
+            android:id="@+id/edtYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
@@ -74,10 +74,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.442"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etCarModel" />
+            app:layout_constraintTop_toBottomOf="@+id/edtModel" />
 
         <EditText
-            android:id="@+id/etMileage"
+            android:id="@+id/edtMileage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="88dp"
@@ -87,20 +87,20 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.442"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etYear" />
+            app:layout_constraintTop_toBottomOf="@+id/edtYear" />
 
         <Button
-            android:id="@+id/btnProcess"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/btnSave"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
             android:layout_marginTop="72dp"
             android:backgroundTint="#E91E63"
             android:fontFamily="@font/aclonica"
-            android:text="PROCESS INFORMATION"
+            android:text=" Save Info"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etMileage"
+            app:layout_constraintTop_toBottomOf="@+id/edtMileage"
             app:layout_constraintVertical_bias="0.333" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
